@@ -1,0 +1,17 @@
+{
+  "name": "bulbs-component-external-link",
+  "description": "Frontend dependencies for External Link component.",
+  "version": "0.0.1",
+  "private": true,
+  "ignore": [
+    "compat-builds",
+    "resources",
+    "src",
+    ".*",
+    "Gruntfile.js",
+    "MANIFEST.in",
+    "setup.py"
+  ],
+  "dependencies": {
+  }
+}

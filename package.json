@@ -1,0 +1,6 @@
+{
+  "description": "Do not install via npm.",
+  "private": true,
+  "devDependencies": {
+  }
+}
