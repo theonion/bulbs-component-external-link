@@ -21,9 +21,11 @@ setup(
     author_email="akos@theonion.com",
     package_dir={
         "bulbs_component_external_link": "src/django-bulbs",
+        "bulbs_component_external_link_cms": "compat-builds/django-bulbs-cms"
     },
     packages=[
         "bulbs_component_external_link",
+        "bulbs_component_external_link_cms"
     ],
     include_package_data=True,
     install_requires=requires,
