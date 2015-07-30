@@ -1,0 +1,2 @@
+recursive-include compat-builds/django-bulbs-cms/static *
+recursive-include compat-builds/django-bulbs-cms/templates *
