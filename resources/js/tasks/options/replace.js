@@ -15,7 +15,7 @@ module.exports = {
     },
     files: [{
       cwd: 'src/bulbs-cms',
-      dest: '.tmp/django-bulbs-cms-pre-1/templates/cms/partials/external-link',
+      dest: '.tmp/django-bulbs-cms-pre-1/templates/cms/partials/externallink',
       src: '**/*.html',
       expand: true,
       flatten: true

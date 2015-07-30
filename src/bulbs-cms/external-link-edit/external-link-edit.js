@@ -5,7 +5,7 @@ angular.module('bulbs.externalLink.edit', [])
     function () {
       return {
         restrict: 'E',
-        templateUrl: '/cms/partials/external-link/external-link-edit.html',
+        templateUrl: '/cms/partials/externallink/external-link-edit.html',
         scope: {
           article: '='
         }
