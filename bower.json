@@ -1,7 +1,7 @@
 {
   "name": "bulbs-component-external-link",
   "description": "Frontend dependencies for External Link component.",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "private": true,
   "ignore": [
     "compat-builds",

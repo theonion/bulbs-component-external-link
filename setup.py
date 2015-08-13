@@ -2,7 +2,7 @@
 from setuptools import setup
 
 name = "bulbs-component-external-link"
-version = "0.0.1"
+version = "0.0.2"
 
 requires = [
     "django-bulbs==0.6.1",
