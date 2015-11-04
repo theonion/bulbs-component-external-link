@@ -45,7 +45,10 @@ Django's settings file.
   
   external_link_pipeline.cms_js.update_pipeline(PIPELINE_JS)
   ```
-  Where ```PIPELINE_JS``` is the current javascript pipeline dictionary.
+  Where ```PIPELINE_JS``` is the current javascript pipeline dictionary. Access the js from the pipeline by adding the following to the base html for the cms:
+  ```html
+  {% compressed_css "external_link_cms" %}
+  ```
 
 1. Create a CMS page with the following html:
   ```html
