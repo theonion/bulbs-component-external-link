@@ -37,6 +37,16 @@ To use the CMS templates, scripts, and styles:
 1. Include ```"bulbs_component_external_link_cms"``` in ```INSTALLED_APPS``` in
 Django's settings file.
 
+1. If using [django-pipeline](https://github.com/cyberdelia/django-pipeline) add the following to the Django settings file:
+  ```python
+  from bulbs_component_external_link import pipeline as external_link_pipeline
+  
+  ...
+  
+  external_link_pipeline.cms_js.update_pipeline(PIPELINE_JS)
+  ```
+  Where ```PIPELINE_JS``` is the current javascript pipeline dictionary.
+
 1. Create a CMS page with the following html:
   ```html
   <external-link-edit article="content"></external-link-edit>
