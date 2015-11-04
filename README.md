@@ -8,7 +8,7 @@ Using this project requires setup and implementation of provided Django apps. Th
 site refers to the site that this component is being installed in.
 
 ### Python and Bower Dependencies
-Frmo the site using this component:
+From the site using this component:
 
 1. Add a dependency for this project in ```requirements.txt```, where ```<version>```
 is the version to install:
