@@ -30,6 +30,7 @@ install which should match the ```<version>``` used in ```requirements.txt```:
 1. Add ```"bulbs_component_external_link"``` to ```INSTALLED_APPS``` in Django's settings file.
 1. Add a ```models.py``` that implements ```bulbs_component_external_link.models.ExternalLinkMixin```.
 1. Create a migration for your app with Django migrations as you would any other app.
+1. Run migrations.
 
 #### Implementing CMS Resources
 To use the CMS templates, scripts, and styles:
